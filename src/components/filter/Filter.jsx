@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Input, Lable } from 'components/InputForm/InputForm.styled';
+import { Input, Lable } from 'components/inputForm/InputForm.styled';
 
 export const Filter = ({ filterValue, onValueChange }) => {
   return (
