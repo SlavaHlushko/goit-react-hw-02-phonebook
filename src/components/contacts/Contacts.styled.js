@@ -9,7 +9,7 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 10px;
