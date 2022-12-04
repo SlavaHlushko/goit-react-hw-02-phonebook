@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { List, ListItem } from './Contacts.styled';
+import { List, ListItem } from 'components/Contacts/Contacts.styled'
 import { Button } from 'components/InputForm/InputForm.styled';
 
 export const Contacts = ({ contacts, onDelete }) => {

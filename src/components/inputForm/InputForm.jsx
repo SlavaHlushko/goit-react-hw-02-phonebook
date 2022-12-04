@@ -1,6 +1,11 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FormContainer, Lable, Input, Button } from './InputForm.styled';
+import {
+  FormContainer,
+  Lable,
+  Input,
+  Button,
+} from 'components/InputForm/InputForm.styled';
 
 export class InputForm extends Component {
   state = {
