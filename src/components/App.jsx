@@ -24,6 +24,7 @@ export class App extends Component {
       alert(`${newData.name} is already in contacts`);
       return;
     }
+
     this.setState(prevState => ({
       contacts: [...prevState.contacts, newData],
     }));
@@ -34,10 +35,12 @@ export class App extends Component {
     const filteredContacts = contacts.filter(({ id }) => {
       return id !== contactId;
     });
+
     this.setState({
       contacts: filteredContacts,
     });
   };
+  
   changeFilter = event => {
     this.setState({
       filter: event.currentTarget.value,
@@ -55,6 +58,7 @@ export class App extends Component {
   render() {
     const { contacts, filter } = this.state;
     const visibleContacts = this.getFilteredContacts();
+
     return (
       <Container>
         <Heading>PhoneBook</Heading>
